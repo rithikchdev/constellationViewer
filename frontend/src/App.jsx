@@ -90,12 +90,11 @@ export default function App() {
           </Badge>
 
           <Heading as="h1" size="3xl" fontWeight="black" letterSpacing="tight">
-            Live Constellation Radar
+            Know what's above you
           </Heading>
 
           <Text fontSize="lg" maxW="2xl" color="gray.400">
-            Know What Constellations are above you in Real Time!
-            Give Location Access to proceed
+            Check which constellations you can view right know around you in the sky, give location access and we will tell you where to look exactly to see it
           </Text>
 
           <Button
