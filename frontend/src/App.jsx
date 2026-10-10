@@ -86,7 +86,7 @@ export default function App() {
             fontSize="xs"
             letterSpacing="wider"
           >
-            Ephemeris + Gemini Observer
+            Stargazing Companion
           </Badge>
 
           <Heading as="h1" size="3xl" fontWeight="black" letterSpacing="tight">
@@ -94,7 +94,7 @@ export default function App() {
           </Heading>
 
           <Text fontSize="lg" maxW="2xl" color="gray.400">
-            Check which constellations you can view right know around you in the sky, give location access and we will tell you where to look exactly to see it
+            Want to know what's in your night sky right now? Grant location access and we’ll point you directly toward the stars visible from your spot.
           </Text>
 
           <Button
