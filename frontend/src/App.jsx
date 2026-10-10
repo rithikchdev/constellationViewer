@@ -41,7 +41,7 @@ export default function App() {
         };
 
         try {
-          const apiUrl = import.meta.env.VITE_API_URL || "http://localhost:5000";
+          const apiUrl = import.meta.env.VITE_API_URL;
 
           const response = await fetch(`${apiUrl}/api/sky-view`, {
             method: "POST",
@@ -65,7 +65,7 @@ export default function App() {
         setLoading(false);
         setErrorMsg(`Geolocation permission denied: ${err.message}`);
       },
-      { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 }
+      { enableHighAccuracy: true, timeout: 50000, maximumAge: 60000 }
     );
   };
 
