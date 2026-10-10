@@ -8,7 +8,7 @@ dotenv.config();
 
 const app = express();
 const allowedOrigins = [
-  "https://your-app-name.netlify.app" 
+  "https://constellation-viewer.netlify.app" 
 ];
 app.use(
   cors({
