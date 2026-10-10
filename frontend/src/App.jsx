@@ -94,8 +94,8 @@ export default function App() {
           </Heading>
 
           <Text fontSize="lg" maxW="2xl" color="gray.400">
-            Detect celestial constellations resting above your horizon right now, complete
-            with astronomical bearings, high-resolution imagery, and AI narratives.
+            Know What Constellations are above you in Real Time!
+            Give Location Access to proceed
           </Text>
 
           <Button
